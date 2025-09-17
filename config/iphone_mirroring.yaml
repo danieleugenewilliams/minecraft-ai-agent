@@ -1,0 +1,33 @@
+# Minecraft AI Agent Configuration
+# Optimized for iPhone Mirroring detection
+
+agent:
+  name: 'MinecraftAI'
+  update_rate: 0.5  # Slower for testing
+  max_actions_per_second: 2  # Conservative for testing
+
+vision:
+  # Region 1 showed highest Minecraft content (41.4%)
+  screen_region:
+    left: 378
+    top: 491  
+    width: 756
+    height: 491
+  image_scale: 0.8  # Slightly larger for better detection
+  color_space: 'RGB'
+
+automation:
+  click_duration: 0.1
+  key_press_duration: 0.05
+  safety_bounds: true
+
+ai:
+  model_type: 'rule_based'
+  exploration_rate: 0.3  # More exploration for testing
+  learning_rate: 0.001
+
+logging:
+  level: 'INFO'
+  file: 'logs/minecraft_ai.log'
+  max_size: '10MB'
+  backup_count: 5

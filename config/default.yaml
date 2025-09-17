@@ -1,0 +1,21 @@
+agent:
+  max_actions_per_second: 10
+  name: MinecraftAI
+  update_rate: 0.1
+ai:
+  exploration_rate: 0.1
+  learning_rate: 0.001
+  model_type: rule_based
+automation:
+  click_duration: 0.1
+  key_press_duration: 0.05
+  safety_bounds: true
+logging:
+  backup_count: 5
+  file: logs/minecraft_ai.log
+  level: INFO
+  max_size: 10MB
+vision:
+  color_space: RGB
+  image_scale: 0.5
+  screen_region: null

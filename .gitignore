@@ -1,0 +1,46 @@
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Screenshots and logs
+*.png
+*.jpg
+*.jpeg
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+
+# Model weights and data
+models/*.pkl
+models/*.pt
+models/*.pth
+*.weights
+
+# Test outputs
+test_*.png
+hunt_*.png
+water_hunt_*.png
+tree_search_*.png
+tree_navigation_*.png
