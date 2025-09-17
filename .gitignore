@@ -11,10 +11,10 @@ __pycache__/
 *$py.class
 *.so
 
-# Screenshots and logs
-*.png
-*.jpg
-*.jpeg
+# Images directory for training data (excluded from git)
+images/
+
+# Logs
 logs/
 *.log
 
@@ -37,10 +37,3 @@ models/*.pkl
 models/*.pt
 models/*.pth
 *.weights
-
-# Test outputs
-test_*.png
-hunt_*.png
-water_hunt_*.png
-tree_search_*.png
-tree_navigation_*.png
